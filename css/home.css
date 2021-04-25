@@ -38,7 +38,7 @@ body{
 .home{
     height: 575px;
     width: 100%;
-    background-image: url(/images/background-image.png);
+    background-image: url(../images/background-image.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -131,7 +131,7 @@ body{
 .second-page{
     height: 575px;
     width: 100%;
-    background-image: url(/images/second-back.jpeg);
+    background-image: url(../images/second-back.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -178,7 +178,7 @@ body{
 .about{
     height: 575px;
     width: 100%;
-    background-image: url(/images/background-image.png);
+    background-image: url(../images/background-image.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -205,7 +205,7 @@ body{
 .contact{
     height: 575px;
     width: 100%;
-    background-image: url(/images/second-back.jpeg);
+    background-image: url(../images/second-back.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
