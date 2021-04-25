@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body{
+      overflow-x: hidden;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(54, 52, 52); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a09e9e; 
+  }
+  
+  .img-container {
+    float: left;
+    width: 33%;
+    padding: 5px;
+    height: 300px;
+    /* display: flex; */
+    
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .clearfix{
+      background-color: cornsilk;
+  }
+
+  .heading{
+      /* margin-top: 20px;
+      margin-bottom: 30px; */
+      text-align: center;
+      background-color: red;
+      height: 100px;
+  }
+
+  .heading h1{
+      color: white;
+      position: relative;
+      top: 24%;
+      font-size: 60px;
+      display: inline;
+  }
+
+  .heading h1:hover{
+      color: rgb(168, 166, 166);
+      border-bottom: 2px solid rgb(168, 166, 166);
+  }
+
+  .banner{
+      width: 100%;
+      /* height: 100px; */
+  }
+
+  .banner img{
+      height: 300px;
+      width: 1263px;
+      margin-top: 10px;
+  }
+
+  .form{
+      height: 260px;
+      width: 100%;
+      background-color: red;
+  }
+
+  .img-container:hover{
+      border: 2px solid red;
+      width: 33.80%;
+  }
+
+  .form select{
+      margin: 10px;
+      padding: 15px;
+      text-align: center;
+      position: relative;
+      left: 45%;
+  }
+
+  .form label{
+      position: relative;
+      left: 45%;
+      font-size: 20px;
+      color: white;
+      font-weight: bolder;
+  }
+
+  .form input{
+      position: relative;
+      left: 50%;
+      margin: 10px;
+      padding: 10px;
+      color: red;
+      border: 2px solid rgb(119, 7, 7);
+      border-radius: 10px;
+      
+  }
+
+  .form input:hover{
+    color: white;
+      background-color: red;
+      border: 2px solid white;
+  }
+
+  .form h1{
+      position: relative;
+      top: 40%;
+      left: 5%;
+      color: white;
+      font-size: 40px;
+  }
+
+  .form select{
+      padding: 10px;
+      border: 2px solid white;
+      border-radius: 10px;
+      color: red;
+  }
+
+  .form option{
+      padding: 10px;
+      margin: 3px;
+      color: red;
+  }
